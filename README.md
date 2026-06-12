@@ -1,4 +1,5 @@
 Gun Violence Data Warehouse & OLAP Analysis (US 2013–2018)
+
 📌 Project Overview
 
 This project builds a full data warehouse system and OLAP solution using a multi-format dataset (CSV, XML, JSON) of US gun violence incidents (2013–2018). The goal is to design an analytical system for exploring crime patterns across geography, time, and participant attributes.
@@ -11,15 +12,13 @@ Quarter (Q1–Q4)
 Crime Gravity (severity metric combining incident factors)
 Enriched geographic data using city/state coordinates
 Generated surrogate keys for dimensional modeling
+
 🗄️ Data Warehouse Design
 
 Built a Star Schema architecture:
 
 Fact Table: Custody
 Dimension Tables: Participant, Gun, Geography, Date, Incident
-
-Designed for scalability and analytical querying.
-
 
 📊 OLAP & Analytical Modeling
 Created OLAP cube with Time and Geography hierarchies
