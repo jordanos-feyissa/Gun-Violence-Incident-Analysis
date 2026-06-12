@@ -11,7 +11,7 @@ import csv
 import pyodbc 
 
 #connect to the data source 
-server = 'servernmae' 
+server = 'servername' 
 database = 'Group_ID_13_DB'
 username = 'Group_ID_13' 
 password = 'PASS'
