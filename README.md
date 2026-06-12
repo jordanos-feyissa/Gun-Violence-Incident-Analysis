@@ -23,18 +23,21 @@ Dimension Tables: Participant, Gun, Geography, Date, Incident
 📊 OLAP & Analytical Modeling
 Created OLAP cube with Time and Geography hierarchies
 Developed MDX queries to answer:
-High-risk cities per state
-Incident severity vs state average
-Quarterly crime gravity trends
+- High-risk cities per state
+- Incident severity vs state average
+- Quarterly crime gravity trends
+
 📈 Dashboards (Power BI)
 Geographic heatmaps of crime severity
 Age group distribution of participants
 Time-based trend analysis (year, month, quarter)
 KPI tracking for custody counts and crime gravity
+
 🎯 Key Insights
 Handguns were the most dominant weapon type across states
 Certain cities showed significantly higher crime gravity than state averages
 Crime patterns varied strongly by geography and time
+
 🛠️ Tools & Technologies
 SSIS (ETL pipelines)
 SQL Server (Data Warehouse)
