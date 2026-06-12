@@ -28,10 +28,10 @@ Developed MDX queries to answer:
 - Quarterly crime gravity trends
 
 📈 Dashboards (Power BI)
-Geographic heatmaps of crime severity
-Age group distribution of participants
-Time-based trend analysis (year, month, quarter)
-KPI tracking for custody counts and crime gravity
+- Geographic heatmaps of crime severity
+- Age group distribution of participants
+- Time-based trend analysis (year, month, quarter)
+- KPI tracking for custody counts and crime gravity
 
 🎯 Key Insights
 Handguns were the most dominant weapon type across states
@@ -39,8 +39,8 @@ Certain cities showed significantly higher crime gravity than state averages
 Crime patterns varied strongly by geography and time
 
 🛠️ Tools & Technologies
-SSIS (ETL pipelines)
-SQL Server (Data Warehouse)
-MDX (OLAP analysis)
-Power BI (Dashboarding)
-Python / Data preprocessing
+* SSIS (ETL pipelines)
+* SQL Server (Data Warehouse)
+* MDX (OLAP analysis)
+* Power BI (Dashboarding)
+* Python / Data preprocessing
