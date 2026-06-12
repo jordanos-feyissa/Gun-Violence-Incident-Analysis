@@ -11,10 +11,10 @@ import csv
 import pyodbc 
 
 #connect to the data source 
-server = 'tcp:lds.di.unipi.it' #131.114.72.230
+server = 'servernmae' 
 database = 'Group_ID_13_DB'
 username = 'Group_ID_13' 
-password = 'KVJ164Y5'
+password = 'PASS'
 connectionString = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password
 cnxn = pyodbc.connect(connectionString)
 cursor = cnxn.cursor()
